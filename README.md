@@ -26,12 +26,25 @@ Today, I explored density and connectivity-based algorithms to handle complex da
 
 ---
 
+## 📅 Day 18: SmartCart – Customer Segmentation Project 🚀
+I applied my unsupervised learning knowledge to a real-world business case: transforming raw customer data into actionable insights.
+
+* **Data Engineering**: Conducted rigorous cleaning, handled missing values, and engineered features like `Total_Spending`, `Total_Children`, and `Customer_Tenure_Days`.
+* **Exploratory Data Analysis (EDA)**: Generated Heatmaps to identify correlations and visualized data distributions for better feature selection.
+* **Dimensionality Reduction**: Applied **PCA (Principal Component Analysis)** before clustering to improve performance and remove redundant noise.
+* **Model Selection**: Used the **Elbow Method** and **Silhouette Score** to determine that $k=4$ provides the most cohesive clusters.
+* **Implementation**: Utilized **Agglomerative Clustering** with a "ward" linkage approach to profile distinct customer segments.
+
+---
+
 ## 📂 Repository Structure
 * **Clustering/**
     * `KMeans.ipynb`: Centroid-based clustering and Elbow Method implementation.
     * `KMeansFor_iris.ipynb`: Application of K-Means on biological Iris data.
-    * `hierarchical_clustering.ipynb`: **(New)** Connectivity-based clustering with Dendrograms.
-    * `DBSCAN.ipynb`: **(New)** Density-based clustering for noise-heavy datasets.
+    * `hierarchical_clustering.ipynb`: Connectivity-based clustering with Dendrograms.
+    * `DBSCAN.ipynb`: Density-based clustering for noise-heavy datasets.
+* **Projects/**
+    * `SmartCart_Segmentation.ipynb`: **(New)** End-to-end customer profiling using PCA and Agglomerative Clustering.
 
 ---
 
